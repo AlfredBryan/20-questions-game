@@ -1,0 +1,36 @@
+{
+  "name": "20-question-game",
+  "version": "1.0.0",
+  "description": "A question game backend built with Nodejs",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon bin/www",
+    "start": "node bin/www"
+  },
+  "keywords": [
+    "Nodejs",
+    "express",
+    "sequelize",
+    "postgres"
+  ],
+  "author": "Alfred Chimereze Bryan",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "passport": "^0.4.0",
+    "passport-google-oauth": "^2.0.0",
+    "pg": "^7.12.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.14.0",
+    "sequelize-cli": "^5.5.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.1"
+  }
+}
